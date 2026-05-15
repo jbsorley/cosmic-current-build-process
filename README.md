@@ -89,6 +89,20 @@ One concrete example: the email personalization fix.
 
 ---
 
+## Artifacts *(coming soon)*
+
+The following documents are being pulled from the active build and will be added here:
+
+| File | Description |
+|---|---|
+| `voice-framework.md` | The declarative voice rules governing every user-facing string |
+| `audit-prompts/` | Read-only inspection prompts used before every codebase change |
+| `lovable-prompts/` | Build prompts written to prevent Lovable's known failure modes |
+| `chapter-arrivals-spec.md` | Architecture and canonical copy for Tier 1 / 2 / 3 arrival moments |
+| `email-personalization-fix.md` | The full audit → decision → fix → verify loop, documented |
+
+---
+
 ## What this is not
 
 This isn't a tutorial on AI-assisted coding. It's documentation of one specific working pattern: a non-engineer founder holding voice, strategy, and sequencing, while delegating implementation to AI under strict verification protocols.
